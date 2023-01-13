@@ -3,7 +3,8 @@
 </script>
 
 <template>
-<router-view></router-view>
+  <!-- 路由出口 -->
+  <router-view/>
 </template>
 
 <style scoped>

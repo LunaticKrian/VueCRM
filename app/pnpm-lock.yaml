@@ -1,16 +1,20 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@element-plus/icons-vue': ^2.0.10
   '@vitejs/plugin-vue': ^4.0.0
   element-plus: ^2.2.28
   vite: ^4.0.0
   vue: ^3.2.45
   vue-router: ^4.1.6
+  vuex: ^4.0.2
 
 dependencies:
+  '@element-plus/icons-vue': 2.0.10_vue@3.2.45
   element-plus: 2.2.28_vue@3.2.45
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
+  vuex: 4.0.2_vue@3.2.45
 
 devDependencies:
   '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.45
@@ -647,3 +651,12 @@ packages:
       '@vue/runtime-dom': 3.2.45
       '@vue/server-renderer': 3.2.45_vue@3.2.45
       '@vue/shared': 3.2.45
+
+  /vuex/4.0.2_vue@3.2.45:
+    resolution: {integrity: sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q==}
+    peerDependencies:
+      vue: ^3.0.2
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      vue: 3.2.45
+    dev: false
